@@ -241,8 +241,8 @@ p {
   gap: 16px;
 }
 
-.menu-soc-bottom {
-  padding-top: 48px;
+.adr-mob-menu {
+  margin: 0 0 48px 0;
 }
 
 .soc-menu {
@@ -631,7 +631,7 @@ p {
 .main-section-top {
   color: #ffffff;
   background-color: #2e2f42;
-  padding: 72px;
+  padding: 72px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bg-section1-mob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -648,8 +648,7 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
   max-width: 216px;
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin: 0 auto 72px auto;
 }
 
 .button {
@@ -687,12 +686,13 @@ p {
       url("../images/bg-section1-tab.jpg");
 
     max-width: 768px;
+    padding: 112px 0;
   }
   .header {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
-    padding-bottom: 36px;
+    margin: 0 auto 36px auto;
   }
 }
 
@@ -1190,11 +1190,7 @@ p {
   }
 
   .logo-footer-div {
-    padding: 0 120px 0 0;
-  }
-
-  .footer-social-ul {
-    padding: 0 80px 0 0;
+    margin: 0 120px 0 0;
   }
 
   .div-subscribe-form {
@@ -1203,7 +1199,7 @@ p {
 
   .div-content-subscribe {
     display: block;
-    padding: 0 0 0 80px;
+    margin: 0 0 0 80px;
   }
 }
 
